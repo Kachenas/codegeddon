@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+body {
+    background: url("/images/bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity: 0.9;
+}
+
+h1 {
+    font-family: 'Cabin Sketch', cursive;
+}
+
+h3 {
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: darkgrey;
+}
+
+h4 {
+    font-family: 'Lora', serif;
+    color: green;
+}
+
+
+.full-height {
+    height: 100vh;
+}
+
+.flex-center {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.position-ref {
+    position: relative;
+}
+
+.top-right {
+    position: absolute;
+    right: 10px;
+    top: 18px;
+}
+
+.filler {
+    min-height: 85vh;
+}
+
+.front-page {
+    text-align: center;
+    padding-top: 8%;
+    padding-bottom: : 12%;
+    color: white;
+}
+
+.modal {
+    background-color: black;
+}
+
+.modal-content {
+    background-color: skyblue;
+    
+}
+
+.links > a {
+    color: #636b6f;
+    padding: 0 25px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.for-footer {
+    text-align: center;
+    font-size: 0.8em;
+    background-color: black;
+    padding: 1%;
+}
+
+.for-show-post {
+    color: red;
+    text-align: right;
+}
